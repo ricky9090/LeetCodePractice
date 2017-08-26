@@ -1,38 +1,38 @@
 package test.leetcode461;
 
 public class Solution {
-	/**
-	 * 0 <= x,y <= 2^31
-	 * */
-	public int hammingDistance(int x, int y) {
-		if (x == 0 && y == 0) {
-			return 0;
-		}
-		
-		// Ê¹ÓÃÁ½¸öÊı×é´æ´¢¶ş½øÖÆÎ»
-		int[] a = new int[31];
-		int[] b = new int[31];
+    /**
+     * 0 <= x,y <= 2^31
+     * */
+    public int hammingDistance(int x, int y) {
+        if (x == 0 && y == 0) {
+            return 0;
+        }
+        
+        // ä½¿ç”¨ä¸¤ä¸ªæ•°ç»„å­˜å‚¨ä½å€¼
+        int[] a = new int[31];
+        int[] b = new int[31];
 
-		// ´Ó×î¸ßÎª¿ªÊ¼£¬Ã¿´Î½«Ò»Î»ÒÆÖÁ×îµÍÎ»ÖÃ£¬
-		// ÔÙÓë1½øĞĞÓë²Ù×÷£¬µÃµ½ÕâÒ»Î»µÄÖµ
-		for (int index = 0; index < 31; index++) {
-			a[index] = (x >> (31-index-1)) & 1;
-			b[index] = (y >> (31-index-1)) & 1;
-		}
-		
-		// ±éÀúÎ»Êı×é£¬Í³¼ÆÎ»²»ÏàÍ¬ÊıÁ¿
-		int diffCount = 0;
-		for (int i = 0; i < 31; i++) {
-			if (a[i] != b[i]) {
-				diffCount++;
-			}
-		}
-		return diffCount;
-	}
-	
-	public static void main(String[] args) {
-		Solution test = new Solution();
-		System.out.println(test.hammingDistance(0, 7));
-	}
+        // ä»æœ€é«˜ä½å¼€å§‹éå†ï¼Œå°†ä½å³ç§»è‡³æœ€ä½ä½
+        // å†å’Œ1è¿›è¡Œä½ä¸ï¼Œå¾—åˆ°æ­¤ä½çš„å€¼
+        for (int index = 0; index < 31; index++) {
+            a[index] = (x >> (31-index-1)) & 1;
+            b[index] = (y >> (31-index-1)) & 1;
+        }
+        
+        // éå†ç»Ÿè®¡ä¸åŒä½ä¸ªæ•°
+        int diffCount = 0;
+        for (int i = 0; i < 31; i++) {
+            if (a[i] != b[i]) {
+                diffCount++;
+            }
+        }
+        return diffCount;
+    }
+    
+    public static void main(String[] args) {
+        Solution test = new Solution();
+        System.out.println(test.hammingDistance(0, 7));
+    }
 
 }
