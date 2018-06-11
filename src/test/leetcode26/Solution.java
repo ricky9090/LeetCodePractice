@@ -25,11 +25,11 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        //int[] test = {1, 1, 2, 3, 4, 4, 5};
+        int[] test = {1, 1, 2, 3, 4, 4, 5, 5, 5};
         //int[] test = {1, 1, 2};
         //int[] test = {1, 1};
-        int[] test = {1, 1, 2, 2, 2, 3, 4, 4, 5, 6};
-        Solution solution = new Solution();
+        //int[] test = {1, 1, 2, 2, 2, 3, 4, 4, 5, 6};
+        Solution2 solution = new Solution2();
         int a = solution.removeDuplicates(test);
         for (int i = 0; i < test.length; i++) {
             System.out.println(test[i]);
