@@ -13,6 +13,7 @@ public class Solution {
         int result = nums.length;
         while (i > 0) {
             if (nums[i] == nums[i - 1]) {
+                // shrink array 1 space
                 for (int j = i - 1; j < nums.length - 1; j++) {
                     nums[j] = nums[j + 1];
                 }

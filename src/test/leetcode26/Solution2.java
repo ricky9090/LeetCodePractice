@@ -14,6 +14,8 @@ public class Solution2 {
             if (nums[n] == nums[n + 1]) {
                 continue;
             }
+            // detect change: n+1 is bigger. 
+            // size+=1, replace "actual" last element
             size++;
             nums[size - 1] = nums[n + 1];
         }
