@@ -9,7 +9,8 @@ import java.util.HashMap;
  * You may assume that each input would have <strong>exactly</strong> one solution,
  * and you may not use the same element twice.
  *
- * @see <a href="https://leetcode.com/problems/two-sum/description/">Two Sum - Leetcode</a>
+ * @see <a href="https://leetcode.com/problems/two-sum/description/">
+ *     Two Sum - LeetCode</a>
  */
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
