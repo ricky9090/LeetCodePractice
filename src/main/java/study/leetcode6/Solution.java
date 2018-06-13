@@ -1,5 +1,20 @@
 package study.leetcode6;
 
+/**
+ * The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows
+ * like this: (you may want to display this pattern in a fixed font for better legibility)
+ * <p>
+ * <code>
+ * P&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;H&nbsp;&nbsp;&nbsp;N<br>
+ * A&nbsp;P&nbsp;L&nbsp;S&nbsp;I&nbsp;I&nbsp;G<br>
+ * Y&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;R<br>
+ * </code>
+ *
+ * And then read line by line: "PAHNAPLSIIGYIR"
+ *
+ * @see <a href="https://leetcode.com/problems/zigzag-conversion/description/">
+ *     ZigZag Conversion - LeetCode</a>
+ */
 public class Solution {
     public String convert(String s, int numRows) {
         if (numRows == 1) {
