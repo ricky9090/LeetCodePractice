@@ -1,5 +1,12 @@
 package study.leetcode53;
 
+/**
+ * Given an integer array nums, find the contiguous subarray (containing at least one number)
+ * which has the largest sum and return its sum.
+ *
+ * @see <a href="https://leetcode.com/problems/maximum-subarray/description/">
+ *     Maximum Subarray - LeetCode</a>
+ */
 public class Solution {
     public int maxSubArray(int[] nums) {
         if (nums == null) {
