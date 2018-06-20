@@ -7,7 +7,7 @@ package study.leetcode4;
  * Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
  *
  * @see <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/description/">
- *     Median of Two Sorted Arrays - LeetCode</a>
+ * Median of Two Sorted Arrays - LeetCode</a>
  */
 public class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

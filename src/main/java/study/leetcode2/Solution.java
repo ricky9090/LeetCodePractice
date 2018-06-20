@@ -8,7 +8,7 @@ package study.leetcode2;
  * You may assume the two numbers do not contain any leading zero, except the number 0 itself.
  *
  * @see <a href="https://leetcode.com/problems/add-two-numbers/description/">
- *     Add Two Numbers - LeetCode</a>
+ * Add Two Numbers - LeetCode</a>
  */
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
