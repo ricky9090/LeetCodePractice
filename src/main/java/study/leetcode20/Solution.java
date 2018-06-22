@@ -13,7 +13,7 @@ package study.leetcode20;
  * Note that an empty string is also considered valid.
  *
  * @see <a href="https://leetcode.com/problems/valid-parentheses/description/">
- *     Valid Parentheses - LeetCode</a>
+ * Valid Parentheses - LeetCode</a>
  */
 public class Solution {
     public boolean isValid(String s) {
