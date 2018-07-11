@@ -5,7 +5,7 @@ package study.leetcode53;
  * which has the largest sum and return its sum.
  *
  * @see <a href="https://leetcode.com/problems/maximum-subarray/description/">
- *     Maximum Subarray - LeetCode</a>
+ * Maximum Subarray - LeetCode</a>
  */
 public class SolutionB {
     public int maxSubArray(int[] nums) {
@@ -23,7 +23,7 @@ public class SolutionB {
             int tmp = nums[i];
             int currentSum = sum + tmp;
             // 如果之前的和小于零，则从最新的元素重新记录
-            sum = currentSum > tmp ?  currentSum : tmp;
+            sum = currentSum > tmp ? currentSum : tmp;
             // 只保存最大值，把其它求和丢掉
             max = max > sum ? max : sum;
         }

@@ -5,7 +5,7 @@ package study.leetcode53;
  * which has the largest sum and return its sum.
  *
  * @see <a href="https://leetcode.com/problems/maximum-subarray/description/">
- *     Maximum Subarray - LeetCode</a>
+ * Maximum Subarray - LeetCode</a>
  */
 public class Solution {
     public int maxSubArray(int[] nums) {

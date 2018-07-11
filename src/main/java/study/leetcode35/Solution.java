@@ -7,7 +7,7 @@ package study.leetcode35;
  * You may assume no duplicates in the array.
  *
  * @see <a href="https://leetcode.com/problems/search-insert-position/description/">
- *     Search Insert Position</a>
+ * Search Insert Position</a>
  */
 public class Solution {
     public int searchInsert(int[] nums, int target) {

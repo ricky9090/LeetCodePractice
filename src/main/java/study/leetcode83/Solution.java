@@ -1,12 +1,10 @@
 package study.leetcode83;
 
 /**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
+ * Given a sorted linked list, delete all duplicates such that each element appear only once.
+ *
+ * @see <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/">
+ * Remove Duplicates from Sorted List</a>
  */
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
