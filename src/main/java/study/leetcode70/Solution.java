@@ -8,7 +8,7 @@ package study.leetcode70;
  * Note: Given n will be a positive integer.
  *
  * @see <a href="https://leetcode.com/problems/climbing-stairs/description/">
- * Climbing Stairs</a>
+ * Climbing Stairs - LeetCode</a>
  */
 public class Solution {
     public int climbStairs(int n) {
