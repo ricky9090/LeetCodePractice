@@ -5,14 +5,14 @@ package study.leetcode.p50.no13;
  * Roman numerals are represented by seven different symbols: <b>I, V, X, L, C, D and M</b>.
  * </p>
  * <table>
- *     <tr> <td>Symbol</td><td>Value</td> </tr>
- *     <tr> <td>I</td><td>1</td> </tr>
- *     <tr> <td>V</td><td>5</td> </tr>
- *     <tr> <td>X</td><td>10</td> </tr>
- *     <tr> <td>L</td><td>50</td> </tr>
- *     <tr> <td>C</td><td>100</td> </tr>
- *     <tr> <td>D</td><td>500</td> </tr>
- *     <tr> <td>M</td><td>1000</td> </tr>
+ * <tr> <td>Symbol</td><td>Value</td> </tr>
+ * <tr> <td>I</td><td>1</td> </tr>
+ * <tr> <td>V</td><td>5</td> </tr>
+ * <tr> <td>X</td><td>10</td> </tr>
+ * <tr> <td>L</td><td>50</td> </tr>
+ * <tr> <td>C</td><td>100</td> </tr>
+ * <tr> <td>D</td><td>500</td> </tr>
+ * <tr> <td>M</td><td>1000</td> </tr>
  * </table>
  * <p>For example, two is written as II in Roman numeral, just two one's added together.
  * Twelve is written as, XII, which is simply X + II. The number twenty seven is written
@@ -24,9 +24,9 @@ package study.leetcode.p50.no13;
  * nine, which is written as IX. There are six instances where subtraction is used:</p>
  *
  * <ul>
- *     <li>I can be placed before V (5) and X (10) to make 4 and 9.</li>
- *     <li>X can be placed before L (50) and C (100) to make 40 and 90.</li>
- *     <li>C can be placed before D (500) and M (1000) to make 400 and 900.</li>
+ * <li>I can be placed before V (5) and X (10) to make 4 and 9.</li>
+ * <li>X can be placed before L (50) and C (100) to make 40 and 90.</li>
+ * <li>C can be placed before D (500) and M (1000) to make 400 and 900.</li>
  * </ul>
  *
  * <p>Given a roman numeral, convert it to an integer. Input is guaranteed to be within the
@@ -36,7 +36,6 @@ package study.leetcode.p50.no13;
  * Roman to Integer - LeetCode</a>
  * @see <a href="https://leetcode-cn.com/problems/roman-to-integer/">
  * 罗马数字转整数 - LeetCode-cn</a>
- *
  */
 class Solution {
     public int romanToInt(String s) {
