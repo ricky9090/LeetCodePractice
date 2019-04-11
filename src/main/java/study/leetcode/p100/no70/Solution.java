@@ -22,6 +22,11 @@ public class Solution {
             return 2;
         }
 
+        // n = [(n-1) + 1] || [(n-2) + 2] => n-1 = ?, n-2 = ?
+        // f(n)
+        // f(1) = 1, f(2) = 2
+        // f(3) = f(2) + f(1)
+        // f(n) = f(n-1) + f(n-2)
         int total = 0;
         int total_p = 2; // prev init climb to 2
         int total_pp = 1; // prev prev init climb to 1
