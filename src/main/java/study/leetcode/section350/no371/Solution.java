@@ -1,4 +1,4 @@
-package study.leetcode.no371;
+package study.leetcode.section350.no371;
 
 public class Solution {
     public int getSum(int a, int b) {
@@ -6,15 +6,15 @@ public class Solution {
             return a;
         }
         int sum, carry;
-        sum = a^b;
-        carry = (a&b) << 1;
+        sum = a ^ b;
+        carry = (a & b) << 1;
         System.out.println("sum: " + sum + ", carry: " + carry);
         return getSum(sum, carry);
     }
-    
+
     public static void main(String[] args) {
-    	Solution test = new Solution();
-    	
-    	System.out.println(test.getSum(3, 5));
+        Solution test = new Solution();
+
+        System.out.println(test.getSum(3, 5));
     }
 }
