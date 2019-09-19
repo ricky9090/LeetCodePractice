@@ -7,12 +7,12 @@ public class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         if (nums.length == 0) {
-            result.add(new ArrayList<>());
+            result.add(new ArrayList<Integer>());
             return result;
         }
         int loopMax = nums.length;
-        generate(nums, loopMax, 0, new ArrayList<>(), result);
-        result.add(new ArrayList<>());
+        generate(nums, loopMax, 0, new ArrayList<Integer>(), result);
+        result.add(new ArrayList<Integer>());
         return result;
     }
 
