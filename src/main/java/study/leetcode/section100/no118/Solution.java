@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * <h1>Pascal's Triangle</h1>
+ * <h2>Pascal's Triangle</h2>
  * <p>
  * Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
  * <p>
@@ -24,7 +24,6 @@ import java.util.List;
  *  ]
  *
  * </pre>
- * <p>
  *
  * @see <a href="https://leetcode-cn.com/problems/pascals-triangle">
  * Pascal's Triangle</a>
