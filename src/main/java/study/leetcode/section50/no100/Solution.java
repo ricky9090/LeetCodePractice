@@ -1,5 +1,7 @@
 package study.leetcode.section50.no100;
 
+import study.leetcode.common.TreeNode;
+
 /**
  * Given two binary trees, write a function to check if they are the same or not.
  * <p>

@@ -1,5 +1,7 @@
 package study.leetcode.section50.no83;
 
+import study.leetcode.common.ListNode;
+
 /**
  * Given a sorted linked list, delete all duplicates such that each element appear only once.
  *

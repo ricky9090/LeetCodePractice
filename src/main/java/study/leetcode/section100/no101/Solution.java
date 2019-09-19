@@ -1,5 +1,7 @@
 package study.leetcode.section100.no101;
 
+import study.leetcode.common.TreeNode;
+
 import java.util.ArrayList;
 
 /**

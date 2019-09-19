@@ -1,5 +1,7 @@
 package study.leetcode.section100.no141;
 
+import study.leetcode.common.ListNode;
+
 /**
  * Given a linked list, determine if it has a cycle in it.
  *

@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
+import study.leetcode.common.ListNode;
 
 import static org.junit.Assert.assertEquals;
 

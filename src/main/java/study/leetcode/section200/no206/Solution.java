@@ -1,5 +1,7 @@
 package study.leetcode.section200.no206;
 
+import study.leetcode.common.ListNode;
+
 /**
  * Reverse a singly linked list.
  * <p>

@@ -1,5 +1,7 @@
 package study.leetcode.section100.no104;
 
+import study.leetcode.common.TreeNode;
+
 /**
  * Given a binary tree, find its maximum depth.
  * <p>

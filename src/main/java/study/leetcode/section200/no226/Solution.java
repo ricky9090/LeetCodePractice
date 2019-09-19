@@ -1,5 +1,7 @@
 package study.leetcode.section200.no226;
 
+import study.leetcode.common.TreeNode;
+
 /**
  * Invert a binary tree.
  *

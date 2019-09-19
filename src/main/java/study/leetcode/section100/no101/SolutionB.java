@@ -1,5 +1,7 @@
 package study.leetcode.section100.no101;
 
+import study.leetcode.common.TreeNode;
+
 /**
  * Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
  * <p>

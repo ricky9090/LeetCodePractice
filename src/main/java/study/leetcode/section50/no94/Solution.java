@@ -1,5 +1,7 @@
 package study.leetcode.section50.no94;
 
+import study.leetcode.common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,15 +37,5 @@ public class Solution {
         }
 
         return result;
-    }
-
-    protected static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
     }
 }
