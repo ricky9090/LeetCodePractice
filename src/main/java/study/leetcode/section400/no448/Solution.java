@@ -1,4 +1,4 @@
-package study.leetcode.no448;
+package study.leetcode.section400.no448;
 
 import java.util.LinkedList;
 import java.util.List;

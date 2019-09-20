@@ -1,4 +1,4 @@
-package study.leetcode.no412;
+package study.leetcode.section400.no412;
 
 import java.util.ArrayList;
 import java.util.List;
