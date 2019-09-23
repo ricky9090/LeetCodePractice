@@ -11,11 +11,11 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnit4.class)
 public class SolutionTest {
-    Solution solution;
+    Solution2 solution;
 
     @Before
     public void setUp() {
-        solution = new Solution();
+        solution = new Solution2();
     }
 
     @After

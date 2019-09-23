@@ -12,7 +12,7 @@ import study.leetcode.common.ListNode;
  * @see <a href="https://leetcode.com/problems/add-two-numbers/description/">
  * Add Two Numbers - LeetCode</a>
  */
-public class Solution {
+public class Solution2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode aNode = l1,
                 bNode = l2;
@@ -114,7 +114,7 @@ public class Solution {
         l2.next = new ListNode(9);
         l2.next.next = new ListNode(9);
 
-        Solution test = new Solution();
+        Solution2 test = new Solution2();
         ListNode result = test.addTwoNumbers(l1, l2);
         while (result != null) {
             System.out.println(result.val);
