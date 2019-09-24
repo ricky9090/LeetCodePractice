@@ -9,7 +9,7 @@ package study.leetcode.section0.no4;
  * @see <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/description/">
  * Median of Two Sorted Arrays - LeetCode</a>
  */
-public class Solution {
+public class Solution4 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;
@@ -59,7 +59,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution test = new Solution();
+        Solution4 test = new Solution4();
         int[] a = {1, 2};
         int[] b = {3, 4};
         // double timeA = System.currentTimeMillis();
