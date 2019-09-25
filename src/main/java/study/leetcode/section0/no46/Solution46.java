@@ -51,7 +51,7 @@ public class Solution46 {
             List<Integer> nextRemain = new LinkedList<>(remain);
             List<Integer> nextGen = new ArrayList<>(genList);
             nextGen.add(nextRemain.get(i));
-            nextRemain.remove(0);
+            nextRemain.remove(i);
             generate(nextGen, nextRemain, remainSize - 1, result);
         }
     }
