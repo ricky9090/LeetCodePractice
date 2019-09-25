@@ -1,21 +1,22 @@
 package study.leetcode.section0.no6;
 
 /**
+ * <h2>ZigZag Conversion</h2>
  * The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows
  * like this: (you may want to display this pattern in a fixed font for better legibility)
  * <p>
- * <code>
- * P&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;H&nbsp;&nbsp;&nbsp;N<br>
- * A&nbsp;P&nbsp;L&nbsp;S&nbsp;I&nbsp;I&nbsp;G<br>
- * Y&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;R<br>
- * </code>
+ * <pre><code>
+ * P   A   H   N
+ * A P L S I I G
+ * Y   I   R
+ * </code></pre>
  * <p>
  * And then read line by line: "PAHNAPLSIIGYIR"
  *
  * @see <a href="https://leetcode.com/problems/zigzag-conversion/description/">
  * ZigZag Conversion - LeetCode</a>
  */
-public class Solution {
+public class Solution6 {
     public String convert(String s, int numRows) {
         if (numRows == 1) {
             return s;
@@ -63,7 +64,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution test = new Solution();
+        Solution6 test = new Solution6();
         System.out.println(test.convert("PAYPALISHIRING", 3));
     }
 }

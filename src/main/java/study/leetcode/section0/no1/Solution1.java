@@ -3,6 +3,7 @@ package study.leetcode.section0.no1;
 import java.util.HashMap;
 
 /**
+ * <h2>Two Sum</h2>
  * Given an array of integers, return <strong>indices</strong> of the two numbers
  * such that they add up to a specific target.
  * <p>
