@@ -21,7 +21,7 @@ package study.leetcode.section50.no88;
  * @see <a href="https://leetcode-cn.com/problems/merge-sorted-array">
  * Merge Sorted Array</a>
  */
-public class Solution {
+public class Solution88 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         final int length1 = m;
         final int length2 = n;
@@ -61,7 +61,7 @@ public class Solution {
     public static void main(String[] args) {
         int[] test1 = {1, 2, 3, 0, 0, 0};
         int[] test2 = {2, 5, 6};
-        Solution solution = new Solution();
+        Solution88 solution = new Solution88();
         solution.merge(test1, 3, test2, 3);
         System.out.println(test1);  // for debug breakpoint
     }

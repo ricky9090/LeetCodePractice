@@ -25,7 +25,7 @@ package study.leetcode.section50.no69;
  * @see <a href="https://leetcode-cn.com/problems/sqrtx">
  * Sqrt(x)</a>
  */
-public class Solution {
+public class Solution69 {
     public int mySqrt(int x) {
         if (x == 0) {
             return 0;
@@ -49,7 +49,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution69 solution = new Solution69();
         System.out.println(solution.mySqrt(2));
         System.out.println(solution.mySqrt(4));
         System.out.println(solution.mySqrt(8));

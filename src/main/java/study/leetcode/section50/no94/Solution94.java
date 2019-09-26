@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * <h2>Binary Tree Inorder Traversal</h2>
  * Given a binary tree, return the inorder traversal of its nodes' values.
  * <p>
  * <b>Follow up:</b> Recursive solution is trivial, could you do it iteratively?
@@ -13,7 +14,7 @@ import java.util.List;
  * @see <a href="https://leetcode.com/problems/binary-tree-inorder-traversal/">
  * Binary Tree Inorder Traversal</a>
  */
-public class Solution {
+public class Solution94 {
     // recursive solution
     public List<Integer> inorderTraversal(TreeNode root) {
         if (root == null) {

@@ -1,13 +1,14 @@
 package study.leetcode.section50.no53;
 
 /**
+ * <h2>Maximum Subarray</h2>
  * Given an integer array nums, find the contiguous subarray (containing at least one number)
  * which has the largest sum and return its sum.
  *
  * @see <a href="https://leetcode.com/problems/maximum-subarray/description/">
  * Maximum Subarray - LeetCode</a>
  */
-public class Solution {
+public class Solution53 {
     public int maxSubArray(int[] nums) {
         if (nums == null) {
             return 0;
@@ -40,7 +41,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution53 solution = new Solution53();
 
         //int[] test = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         //int[] test = {-1,-2};

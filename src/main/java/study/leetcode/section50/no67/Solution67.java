@@ -3,6 +3,7 @@ package study.leetcode.section50.no67;
 import java.util.Arrays;
 
 /**
+ * <h2>Add Binary</h2>
  * Given two binary strings, return their sum (also a binary string).
  * <p>
  * The input strings are both non-empty and contains only characters 1 or 0.
@@ -20,7 +21,7 @@ import java.util.Arrays;
  * @see <a href="https://leetcode-cn.com/problems/add-binary">
  * Add Binary</a>
  */
-public class Solution {
+public class Solution67 {
     public String addBinary(String a, String b) {
         String result;
 
@@ -95,7 +96,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution67 solution = new Solution67();
         System.out.println(solution.addBinary("10", "11"));
     }
 }

@@ -1,6 +1,7 @@
 package study.leetcode.section50.no70;
 
 /**
+ * <h2>Climbing Stairs</h2>
  * You are climbing a stair case. It takes n steps to reach to the top.
  * <p>
  * Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
@@ -10,7 +11,7 @@ package study.leetcode.section50.no70;
  * @see <a href="https://leetcode.com/problems/climbing-stairs/description/">
  * Climbing Stairs - LeetCode</a>
  */
-public class Solution {
+public class Solution70 {
     public int climbStairs(int n) {
         if (n <= 0) {
             return 0;
@@ -39,7 +40,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution70 solution = new Solution70();
         System.out.println(solution.climbStairs(0));
         System.out.println(solution.climbStairs(1));
         System.out.println(solution.climbStairs(2));

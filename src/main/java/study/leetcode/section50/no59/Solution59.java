@@ -18,7 +18,7 @@ package study.leetcode.section50.no59;
  * @see <a href="https://leetcode-cn.com/problems/spiral-matrix-ii">
  * Spiral Matrix II</a>
  */
-public class Solution {
+public class Solution59 {
     public int[][] generateMatrix(int n) {
         int numberToPlace = n * n;
         int[][] result = new int[n][n];
@@ -78,7 +78,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution59 solution = new Solution59();
         int[][] result = solution.generateMatrix(3);
         System.out.println(result);
     }

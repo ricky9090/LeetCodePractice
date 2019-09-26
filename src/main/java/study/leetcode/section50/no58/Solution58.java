@@ -17,7 +17,7 @@ package study.leetcode.section50.no58;
  * @see <a href="https://leetcode-cn.com/problems/length-of-last-word">
  * Length of Last Word</a>
  */
-public class Solution {
+public class Solution58 {
     public int lengthOfLastWord(String s) {
         int result = 0;
         if (s == null || "".equals(s)) {
@@ -45,7 +45,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution58 solution = new Solution58();
         System.out.println(solution.lengthOfLastWord("Hello world"));
         System.out.println(solution.lengthOfLastWord("a "));
         System.out.println(solution.lengthOfLastWord("a"));

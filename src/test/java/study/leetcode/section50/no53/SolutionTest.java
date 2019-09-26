@@ -10,13 +10,13 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnit4.class)
 public class SolutionTest {
-    Solution solution;
-    SolutionB solutionB;
+    Solution53 solution;
+    Solution53B solutionB;
 
     @Before
     public void setUp() {
-        solution = new Solution();
-        solutionB = new SolutionB();
+        solution = new Solution53();
+        solutionB = new Solution53B();
     }
 
     @After

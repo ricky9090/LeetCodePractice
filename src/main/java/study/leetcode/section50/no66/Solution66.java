@@ -1,6 +1,7 @@
 package study.leetcode.section50.no66;
 
 /**
+ * <h2>Plus One</h2>
  * Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
  * <p>
  * The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
@@ -22,7 +23,7 @@ package study.leetcode.section50.no66;
  * @see <a href="https://leetcode-cn.com/problems/plus-one">
  * Plus One</a>
  */
-public class Solution {
+public class Solution66 {
     public int[] plusOne(int[] digits) {
         int[] tmp = new int[digits.length + 1];
         int lastIndex = digits.length - 1;
@@ -58,7 +59,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution66 solution = new Solution66();
         int[] test = {9, 9, 8};
 
         int[] result = solution.plusOne(test);

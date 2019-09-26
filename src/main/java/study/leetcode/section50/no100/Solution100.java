@@ -3,6 +3,7 @@ package study.leetcode.section50.no100;
 import study.leetcode.common.TreeNode;
 
 /**
+ * <h2>Same Tree</h2>
  * Given two binary trees, write a function to check if they are the same or not.
  * <p>
  * Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
@@ -10,7 +11,7 @@ import study.leetcode.common.TreeNode;
  * @see <a href="https://leetcode.com/problems/same-tree/description/">
  * Same Tree</a>
  */
-class Solution {
+class Solution100 {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         return walk(p, q);
     }

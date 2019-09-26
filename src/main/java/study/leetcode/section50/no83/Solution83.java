@@ -3,12 +3,13 @@ package study.leetcode.section50.no83;
 import study.leetcode.common.ListNode;
 
 /**
+ * <h2>Remove Duplicates from Sorted List</h2>
  * Given a sorted linked list, delete all duplicates such that each element appear only once.
  *
  * @see <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/">
  * Remove Duplicates from Sorted List</a>
  */
-class Solution {
+class Solution83 {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -54,7 +55,7 @@ class Solution {
         System.out.println("-------------");
 
         // print duplicated list
-        Solution solution = new Solution();
+        Solution83 solution = new Solution83();
         solution.deleteDuplicates(head);
         ListNode p = head;
         while (p.next != null) {
