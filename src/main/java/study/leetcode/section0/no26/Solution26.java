@@ -1,13 +1,14 @@
 package study.leetcode.section0.no26;
 
 /**
+ * <h2>Remove Duplicates from Sorted Array</h2>
  * Given a sorted array nums, remove the duplicates in-place such that each element
  * appear only once and return the new length.
  * <p>
  * Do not allocate extra space for another array, you must do this by modifying the
  * input array in-place with O(1) extra memory.
  * <p>
- * Example 1:
+ * <b>Example 1:</b>
  * <p>
  * Given nums = [1,1,2],
  * <p>
@@ -16,7 +17,7 @@ package study.leetcode.section0.no26;
  * <p>
  * It doesn't matter what you leave beyond the returned length.
  * <p>
- * Example 2:
+ * <b>Example 2:</b>
  * <p>
  * Given nums = [0,0,1,1,1,2,2,3,3,4],
  * <p>
@@ -28,7 +29,7 @@ package study.leetcode.section0.no26;
  * @see <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/">
  * Remove Duplicates from Sorted Array - LeetCode</a>
  */
-public class Solution2 {
+public class Solution26 {
     public int removeDuplicates(int[] nums) {
         if (nums == null) {
             return 0;
@@ -37,16 +38,32 @@ public class Solution2 {
             return 1;
         }
 
-        int size = 1;
-        for (int n = 0; n < nums.length - 1; n++) {
-            if (nums[n] == nums[n + 1]) {
-                continue;
+        int i = nums.length - 1;
+        int result = nums.length;
+        while (i > 0) {
+            if (nums[i] == nums[i - 1]) {
+                // shrink array 1 space
+                for (int j = i - 1; j < nums.length - 1; j++) {
+                    nums[j] = nums[j + 1];
+                }
+                result -= 1;
             }
-            // detect change: n+1 is bigger. 
-            // size+=1, replace "actual" last element
-            size++;
-            nums[size - 1] = nums[n + 1];
+            i--;
+
         }
-        return size;
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int[] test = {1, 1, 2, 3, 4, 4, 5, 5, 5};
+        //int[] test = {1, 1, 2};
+        //int[] test = {1, 1};
+        //int[] test = {1, 1, 2, 2, 2, 3, 4, 4, 5, 6};
+        Solution26B solution = new Solution26B();
+        int a = solution.removeDuplicates(test);
+        for (int i = 0; i < test.length; i++) {
+            System.out.println(test[i]);
+        }
+        System.out.println("Length: " + a);
     }
 }

@@ -10,12 +10,12 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnit4.class)
 public class SolutionTest {
-    Solution solution;
+    Solution35 solution;
     int[] test;
 
     @Before
     public void setUp() {
-        solution = new Solution();
+        solution = new Solution35();
         test = new int[]{1, 3, 5, 6};
     }
 

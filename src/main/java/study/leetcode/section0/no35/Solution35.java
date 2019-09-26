@@ -1,6 +1,7 @@
 package study.leetcode.section0.no35;
 
 /**
+ * <h2>Search Insert Position</h2>
  * Given a sorted array and a target value, return the index if the target is found.
  * If not, return the index where it would be if it were inserted in order.
  * <p>
@@ -9,7 +10,7 @@ package study.leetcode.section0.no35;
  * @see <a href="https://leetcode.com/problems/search-insert-position/description/">
  * Search Insert Position</a>
  */
-public class Solution {
+public class Solution35 {
     public int searchInsert(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
             return 0;
@@ -37,7 +38,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] test = {1, 3, 5, 6};
-        Solution solution = new Solution();
+        Solution35 solution = new Solution35();
         System.out.println(solution.searchInsert(test, 1));
         System.out.println(solution.searchInsert(test, 3));
         System.out.println(solution.searchInsert(test, 5));

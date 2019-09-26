@@ -3,7 +3,7 @@ package study.leetcode.section0.no22;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionB {
+public class Solution22B {
 
     public List<String> generateParenthesis(int n) {
         if (n == 0) {
@@ -46,7 +46,7 @@ public class SolutionB {
     }
 
     public static void main(String[] args) {
-        SolutionB solution = new SolutionB();
+        Solution22B solution = new Solution22B();
         List<String> result = solution.generateParenthesis(3);
         for (String s : result) {
             System.out.println(s);

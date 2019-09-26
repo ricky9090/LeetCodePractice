@@ -28,7 +28,7 @@ package study.leetcode.section0.no26;
  * @see <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/">
  * Remove Duplicates from Sorted Array - LeetCode</a>
  */
-public class Solution {
+public class Solution26B {
     public int removeDuplicates(int[] nums) {
         if (nums == null) {
             return 0;
@@ -37,32 +37,16 @@ public class Solution {
             return 1;
         }
 
-        int i = nums.length - 1;
-        int result = nums.length;
-        while (i > 0) {
-            if (nums[i] == nums[i - 1]) {
-                // shrink array 1 space
-                for (int j = i - 1; j < nums.length - 1; j++) {
-                    nums[j] = nums[j + 1];
-                }
-                result -= 1;
+        int size = 1;
+        for (int n = 0; n < nums.length - 1; n++) {
+            if (nums[n] == nums[n + 1]) {
+                continue;
             }
-            i--;
-
+            // detect change: n+1 is bigger. 
+            // size+=1, replace "actual" last element
+            size++;
+            nums[size - 1] = nums[n + 1];
         }
-        return result;
-    }
-
-    public static void main(String[] args) {
-        int[] test = {1, 1, 2, 3, 4, 4, 5, 5, 5};
-        //int[] test = {1, 1, 2};
-        //int[] test = {1, 1};
-        //int[] test = {1, 1, 2, 2, 2, 3, 4, 4, 5, 6};
-        Solution2 solution = new Solution2();
-        int a = solution.removeDuplicates(test);
-        for (int i = 0; i < test.length; i++) {
-            System.out.println(test[i]);
-        }
-        System.out.println("Length: " + a);
+        return size;
     }
 }

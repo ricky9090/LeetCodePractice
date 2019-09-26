@@ -4,22 +4,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * <h2>Generate Parentheses</h2>
  * Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
  * <p>
  * For example, given n = 3, a solution set is:
  * <p>
- * [<br>
- * "((()))",<br>
- * "(()())",<br>
- * "(())()",<br>
- * "()(())",<br>
- * "()()()"<br>
+ * <pre><code>
+ * [
+ * "((()))",
+ * "(()())",
+ * "(())()",
+ * "()(())",
+ * "()()()"
  * ]
+ * </code></pre>
  *
  * @see <a href="https://leetcode.com/problems/generate-parentheses/">
  * Generate Parentheses</a>
  */
-public class Solution {
+public class Solution22 {
 
     private static final int LEFT = 0;
     private static final int RIGHT = 1;
@@ -72,7 +75,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution22 solution = new Solution22();
         List<String> result = solution.generateParenthesis(3);
         for (String s : result) {
             System.out.println(s);

@@ -1,6 +1,7 @@
 package study.leetcode.section0.no20;
 
 /**
+ * <h2>Valid Parentheses</h2>
  * Given a string containing just the characters '(', ')', '{', '}', '[' and ']',
  * determine if the input string is valid.
  * <p>
@@ -15,7 +16,7 @@ package study.leetcode.section0.no20;
  * @see <a href="https://leetcode.com/problems/valid-parentheses/description/">
  * Valid Parentheses - LeetCode</a>
  */
-public class Solution {
+public class Solution20 {
     public boolean isValid(String s) {
         if (s == null || "".equals(s)) {
             return true;
@@ -67,7 +68,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution20 solution = new Solution20();
         System.out.println(solution.isValid("("));
         System.out.println(solution.isValid(")"));
         System.out.println(solution.isValid("()"));
