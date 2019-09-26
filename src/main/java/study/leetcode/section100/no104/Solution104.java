@@ -3,6 +3,7 @@ package study.leetcode.section100.no104;
 import study.leetcode.common.TreeNode;
 
 /**
+ * <h2>Maximum Depth of Binary Tree</h2>
  * Given a binary tree, find its maximum depth.
  * <p>
  * The maximum depth is the number of nodes along the longest path from
@@ -13,7 +14,7 @@ import study.leetcode.common.TreeNode;
  * @see <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/description/">
  * Maximum Depth of Binary Tree - LeetCode</a>
  */
-public class Solution {
+public class Solution104 {
     public int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
@@ -47,7 +48,7 @@ public class Solution {
         root.left.right = new TreeNode(5);
         root.left.right.left = new TreeNode(6);
 
-        Solution solution = new Solution();
+        Solution104 solution = new Solution104();
         int result = solution.maxDepth(root);
 
         System.out.println(result);

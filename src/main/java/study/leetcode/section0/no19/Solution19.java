@@ -3,6 +3,7 @@ package study.leetcode.section0.no19;
 import study.leetcode.common.ListNode;
 
 /**
+ * <h2>Remove Nth Node From End of List</h2>
  * Given a linked list, remove the n-th node from the end of list and return its head.
  * <p>
  * Example:
@@ -18,7 +19,7 @@ import study.leetcode.common.ListNode;
  * @see <a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/">
  * Remove Nth Node From End of List - LeetCode</a>
  */
-public class Solution {
+public class Solution19 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if (head == null || n < 1) {
             return null;
@@ -61,7 +62,7 @@ public class Solution {
         }
         System.out.println();
 
-        Solution solution = new Solution();
+        Solution19 solution = new Solution19();
 
         ListNode p = solution.removeNthFromEnd(head, 10);
         while (p != null) {

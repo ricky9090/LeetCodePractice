@@ -5,6 +5,7 @@ import study.leetcode.common.TreeNode;
 import java.util.ArrayList;
 
 /**
+ * <h2>Symmetric Tree</h2>
  * Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
  * <p>
  * For example, this binary tree [1,2,2,3,4,4,3] is symmetric.
@@ -12,9 +13,9 @@ import java.util.ArrayList;
  * But the following [1,2,2,null,3,null,3] is not.
  *
  * @see <a href="https://leetcode.com/problems/symmetric-tree/description/">
- *     Symmetric Tree - LeetCode</a>
+ * Symmetric Tree - LeetCode</a>
  */
-public class Solution {
+public class Solution101 {
     public boolean isSymmetric(TreeNode root) {
         if (root == null) {
             return true;
@@ -96,7 +97,7 @@ public class Solution {
         node.right.left = null;
         node.right.right = new TreeNode(3);
 
-        Solution solution = new Solution();
+        Solution101 solution = new Solution101();
         System.out.println(solution.isSymmetric(node));
     }
 }

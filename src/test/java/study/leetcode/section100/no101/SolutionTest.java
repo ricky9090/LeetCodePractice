@@ -12,13 +12,13 @@ import static org.junit.Assert.assertTrue;
 
 @RunWith(JUnit4.class)
 public class SolutionTest {
-    Solution solution;
-    SolutionB solutionB;
+    Solution101 solution;
+    Solution101B solutionB;
 
     @Before
     public void setUp() {
-        solution = new Solution();
-        solutionB = new SolutionB();
+        solution = new Solution101();
+        solutionB = new Solution101B();
     }
 
     @After

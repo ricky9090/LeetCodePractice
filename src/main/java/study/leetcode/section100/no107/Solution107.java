@@ -32,7 +32,7 @@ import java.util.List;
  * @see <a href="https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii">
  * Binary Tree Level Order Traversal II</a>
  */
-public class Solution {
+public class Solution107 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> result = new LinkedList<>();
         if (root == null) {
