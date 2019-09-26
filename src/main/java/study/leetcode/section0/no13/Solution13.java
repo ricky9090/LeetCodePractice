@@ -1,19 +1,20 @@
 package study.leetcode.section0.no13;
 
 /**
+ * <h2>Roman to Integer</h2>
  * <p>
  * Roman numerals are represented by seven different symbols: <b>I, V, X, L, C, D and M</b>.
  * </p>
- * <table>
- * <tr> <td>Symbol</td><td>Value</td> </tr>
- * <tr> <td>I</td><td>1</td> </tr>
- * <tr> <td>V</td><td>5</td> </tr>
- * <tr> <td>X</td><td>10</td> </tr>
- * <tr> <td>L</td><td>50</td> </tr>
- * <tr> <td>C</td><td>100</td> </tr>
- * <tr> <td>D</td><td>500</td> </tr>
- * <tr> <td>M</td><td>1000</td> </tr>
- * </table>
+ * <pre><code>
+ * <b>Symbol</b>       <b>Value</b>
+ * I             1
+ * V             5
+ * X             10
+ * L             50
+ * C             100
+ * D             500
+ * M             1000
+ * </code></pre>
  * <p>For example, two is written as II in Roman numeral, just two one's added together.
  * Twelve is written as, XII, which is simply X + II. The number twenty seven is written
  * as XXVII, which is XX + V + II.</p>
@@ -37,7 +38,7 @@ package study.leetcode.section0.no13;
  * @see <a href="https://leetcode-cn.com/problems/roman-to-integer/">
  * 罗马数字转整数 - LeetCode-cn</a>
  */
-class Solution {
+class Solution13 {
     public int romanToInt(String s) {
         if (s == null || "".equals(s)) {
             return 0;

@@ -1,6 +1,7 @@
 package study.leetcode.section0.no9;
 
 /**
+ * <h2>Palindrome Number</h2>
  * <p>
  * Determine whether an integer is a palindrome. An integer is a palindrome when
  * it reads the same backward as forward.
@@ -11,7 +12,7 @@ package study.leetcode.section0.no9;
  * @see <a href="https://leetcode-cn.com/problems/palindrome-number/">
  * 回文数 - LeetCode-cn</a>
  */
-class Solution {
+class Solution9 {
     public boolean isPalindrome(int x) {
         if (x < 0) {
             return false;

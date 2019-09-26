@@ -28,7 +28,7 @@ import java.util.List;
  * @see <a href="https://leetcode-cn.com/problems/pascals-triangle">
  * Pascal's Triangle</a>
  */
-public class Solution {
+public class Solution118 {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();
 
@@ -61,7 +61,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution118 solution = new Solution118();
         List<List<Integer>> result = solution.generate(5);
         for (List<Integer> list : result) {
             System.out.println(list);

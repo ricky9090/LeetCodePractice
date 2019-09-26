@@ -57,7 +57,7 @@ package study.leetcode.section0.no12;
  * @see <a href="https://leetcode-cn.com/problems/integer-to-roman">
  * Integer to Roman</a>
  */
-public class Solution {
+public class Solution12 {
     public String intToRoman(int num) {
         String[] arrayA = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
         String[] arrayB = {"X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
@@ -93,7 +93,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution12 solution = new Solution12();
         System.out.println(solution.intToRoman(1));
         System.out.println(solution.intToRoman(6));
         System.out.println(solution.intToRoman(19));

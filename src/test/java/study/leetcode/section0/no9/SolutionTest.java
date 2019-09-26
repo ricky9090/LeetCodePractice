@@ -11,11 +11,11 @@ import static org.junit.Assert.assertTrue;
 
 @RunWith(JUnit4.class)
 public class SolutionTest {
-    Solution solution;
+    Solution9 solution;
 
     @Before
     public void setUp() {
-        solution = new Solution();
+        solution = new Solution9();
     }
 
     @After

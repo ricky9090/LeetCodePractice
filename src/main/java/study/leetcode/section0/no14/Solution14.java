@@ -27,7 +27,7 @@ package study.leetcode.section0.no14;
  * @see <a href="https://leetcode-cn.com/problems/longest-common-prefix">
  * Longest Common Prefix</a>
  */
-public class Solution {
+public class Solution14 {
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
             return "";
@@ -68,7 +68,7 @@ public class Solution {
         String[] test = {"flower", "flow", "flight"};
         String[] test2 = {"dog", "racecar", "car"};
         String[] test3 = {"aca", "cba"};
-        Solution solution = new Solution();
+        Solution14 solution = new Solution14();
         System.out.println(solution.longestCommonPrefix(test));
         System.out.println(solution.longestCommonPrefix(test2));
         System.out.println(solution.longestCommonPrefix(test3));
