@@ -3,6 +3,7 @@ package study.leetcode.section200.no206;
 import study.leetcode.common.ListNode;
 
 /**
+ * <h2>Reverse Linked List</h2>
  * Reverse a singly linked list.
  * <p>
  * Example:
@@ -12,9 +13,9 @@ import study.leetcode.common.ListNode;
  * Output: 5->4->3->2->1->NULL
  *
  * @see <a href="https://leetcode.com/problems/reverse-linked-list/description/">
- *     Reverse Linked List - LeetCode</a>
+ * Reverse Linked List - LeetCode</a>
  */
-public class Solution {
+public class Solution206 {
     public ListNode reverseList(ListNode head) {
         if (head == null) {
             return null;
@@ -48,7 +49,7 @@ public class Solution {
             tmp = tmp.next;
         }
 
-        Solution solution = new Solution();
+        Solution206 solution = new Solution206();
         ListNode result = solution.reverseList(head);
         while (result != null) {
             System.out.print(result.val + ",");

@@ -11,11 +11,11 @@ import static org.junit.Assert.*;
 
 @RunWith(JUnit4.class)
 public class SolutionTest {
-    Solution solution;
+    Solution206 solution;
 
     @Before
     public void setUp() {
-        solution = new Solution();
+        solution = new Solution206();
     }
 
     @After
@@ -45,7 +45,7 @@ public class SolutionTest {
             tmp = tmp.next;
         }
 
-        Solution solution = new Solution();
+        Solution206 solution = new Solution206();
         ListNode result = solution.reverseList(head);
         int answer = 19;
         while (result != null) {
