@@ -22,7 +22,7 @@ package study.leetcode.section300.no326;
  * @see <a href="https://leetcode.com/problems/power-of-three/">
  * Power of Three</a>
  */
-class Solution {
+class Solution326 {
     public boolean isPowerOfThree(int n) {
         if (n == 0) {
             return false;
@@ -46,7 +46,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution test = new Solution();
+        Solution326 test = new Solution326();
         for (int i = 0; i < 30; i++) {
             System.out.println(i + ":, " + test.isPowerOfThree(i));
         }

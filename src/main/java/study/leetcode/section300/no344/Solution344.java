@@ -1,6 +1,6 @@
 package study.leetcode.section300.no344;
 
-public class Solution {
+public class Solution344 {
     
     public String reverseString(String s) {
         char[] input = s.toCharArray();
@@ -15,7 +15,7 @@ public class Solution {
     }
     
     public static void main(String[] args) {
-        Solution test = new Solution();
+        Solution344 test = new Solution344();
         System.out.println("1: " + test.reverseString("Hello"));
         System.out.println("1: " + test.reverseString("Hello, world!"));
     }

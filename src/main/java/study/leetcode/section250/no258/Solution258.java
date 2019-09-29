@@ -14,7 +14,7 @@ package study.leetcode.section250.no258;
  * @see <a href="https://leetcode.com/problems/add-digits/">
  * Add Digits</a>
  */
-public class Solution {
+public class Solution258 {
 
     public int addDigits(int num) {
         if (num < 10) {
@@ -30,7 +30,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution test = new Solution();
+        Solution258 test = new Solution258();
         System.out.println(test.addDigits(38)); // 2
         System.out.println(test.addDigits(99)); // 9
         System.out.println(test.addDigits(252)); // 9

@@ -29,7 +29,7 @@ import java.util.List;
  * @see <a href="https://leetcode-cn.com/problems/path-sum">
  * Path Sum</a>
  */
-public class Solution {
+public class Solution112 {
     public boolean hasPathSum(TreeNode root, int sum) {
         if (root == null) {
             return false;

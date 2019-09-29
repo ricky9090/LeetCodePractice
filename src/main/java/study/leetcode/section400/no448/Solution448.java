@@ -23,7 +23,7 @@ import java.util.List;
  * @see <a href="https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/">
  * Find All Numbers Disappeared in an Array - LeetCode</a>
  */
-public class Solution {
+public class Solution448 {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         if (nums == null || nums.length == 0) {
             return new LinkedList<>();
@@ -43,7 +43,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] test = {4, 3, 2, 7, 8, 2, 3, 1};
-        Solution solution = new Solution();
+        Solution448 solution = new Solution448();
         List<Integer> result = solution.findDisappearedNumbers(test);
         for (Integer num : result) {
             System.out.print(num + ", ");

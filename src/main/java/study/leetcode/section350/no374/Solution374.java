@@ -21,7 +21,7 @@ package study.leetcode.section350.no374;
  * @see <a href="https://leetcode.com/problems/guess-number-higher-or-lower/">
  * Guess Number Higher or Lower</a>
  */
-public class Solution extends GuessGame {
+public class Solution374 extends GuessGame {
     public int guessNumber(int n) {
         int left = 1;
         int right = n;

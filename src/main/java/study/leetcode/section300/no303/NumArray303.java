@@ -20,11 +20,11 @@ package study.leetcode.section300.no303;
  * @see <a href="https://leetcode.com/problems/range-sum-query-immutable/">
  * Range Sum Query - Immutable</a>
  */
-public class NumArray {
+public class NumArray303 {
 
     int[] sumArray;
 
-    public NumArray(int[] nums) {
+    public NumArray303(int[] nums) {
 
         if (nums != null) {
             sumArray = new int[nums.length + 1];
@@ -44,7 +44,7 @@ public class NumArray {
 
     public static void main(String[] args) {
         int[] array = {-2, 0, 3, -5, 2, -1};
-        NumArray test = new NumArray(array);
+        NumArray303 test = new NumArray303(array);
         System.out.println(test.sumRange(0, 2));
         System.out.println(test.sumRange(2, 5));
         System.out.println(test.sumRange(0, 5));

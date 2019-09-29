@@ -29,7 +29,7 @@ import java.util.List;
  * @see <a href="https://leetcode-cn.com/problems/minimum-depth-of-binary-tree">
  * Minimum Depth of Binary Tree</a>
  */
-public class Solution {
+public class Solution111 {
     public int minDepth(TreeNode root) {
         if (root == null) {
             return 0;

@@ -2,7 +2,7 @@ package study.leetcode.section100.no136;
 
 import java.util.HashMap;
 
-public class Solution {
+public class Solution136 {
     
     public int singleNumber(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -27,7 +27,7 @@ public class Solution {
     
     public static void main(String[] args) {
         int nums[] = {1, 1, 2, 2, 3, 4, 3};
-        Solution test = new Solution();
+        Solution136 test = new Solution136();
         System.out.println(test.singleNumber(nums));
     }
 

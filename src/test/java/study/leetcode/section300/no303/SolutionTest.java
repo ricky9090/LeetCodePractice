@@ -10,12 +10,12 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnit4.class)
 public class SolutionTest {
-    NumArray solution;
+    NumArray303 solution;
 
     @Before
     public void setUp() {
         int[] testArray = {-2, 0, 3, -5, 2, -1};
-        solution = new NumArray(testArray);
+        solution = new NumArray303(testArray);
     }
 
     @After

@@ -1,6 +1,7 @@
 package study.leetcode.section100.no121;
 
 /**
+ * <h2>Best Time to Buy and Sell Stock</h2>
  * Say you have an array for which the i^th element is the price of
  * a given stock on day i.
  * <p>
@@ -26,7 +27,7 @@ package study.leetcode.section100.no121;
  * @see <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">
  * Best Time to Buy and Sell Stock</a>
  */
-public class Solution {
+public class Solution121 {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length == 0 || prices.length == 1) {
             return 0;
@@ -47,7 +48,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution121 solution = new Solution121();
         int[] test = {7, 1, 5, 3, 6, 4};
         System.out.println(solution.maxProfit(test));
 

@@ -14,7 +14,7 @@ package study.leetcode.section250.no283;
  * @see <a href="https://leetcode.com/problems/move-zeroes/description/">
  * Move Zeroes - LeetCode</a>
  */
-public class Solution {
+public class Solution283 {
     public void moveZeroes(int[] nums) {
         if (nums == null || nums.length == 0) {
             return;
@@ -41,7 +41,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int test[] = {0, 1, 0, 3, 12};
-        Solution solution = new Solution();
+        Solution283 solution = new Solution283();
         solution.moveZeroes(test);
         for (int i = 0; i < test.length; i++) {
             System.out.print(test[i] + ", ");

@@ -1,6 +1,6 @@
 package study.leetcode.section350.no371;
 
-public class Solution {
+public class Solution371 {
     public int getSum(int a, int b) {
         if (b == 0) {
             return a;
@@ -13,7 +13,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution test = new Solution();
+        Solution371 test = new Solution371();
 
         System.out.println(test.getSum(3, 5));
     }

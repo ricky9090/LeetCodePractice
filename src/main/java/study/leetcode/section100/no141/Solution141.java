@@ -8,7 +8,7 @@ import study.leetcode.common.ListNode;
  * @see <a href="https://leetcode.com/problems/linked-list-cycle/description/">
  *     Linked List Cycle - LeetCode</a>
  */
-public class Solution {
+public class Solution141 {
     public boolean hasCycle(ListNode head) {
         if (head == null) {
             return false;
@@ -39,7 +39,7 @@ public class Solution {
         head.next = new ListNode(1);
         head.next.next = null;
 
-        Solution solution = new Solution();
+        Solution141 solution = new Solution141();
         System.out.println(solution.hasCycle(head));
     }
 }
