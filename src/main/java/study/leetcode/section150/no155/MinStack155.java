@@ -5,6 +5,7 @@ import java.util.List;
 
 
 /**
+ * <h2>Min Stack</h2>
  * <p>
  * Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
  * </p>
@@ -20,7 +21,7 @@ import java.util.List;
  * @see <a href="https://leetcode-cn.com/problems/min-stack/">
  * 最小栈 - LeetCode-cn</a>
  */
-class MinStack {
+public class MinStack155 {
 
     private List<Integer> dataList;
     private int topIndex = -1;
@@ -30,7 +31,7 @@ class MinStack {
     /**
      * initialize your data structure here.
      */
-    public MinStack() {
+    public MinStack155() {
         dataList = new ArrayList<>();
 
     }

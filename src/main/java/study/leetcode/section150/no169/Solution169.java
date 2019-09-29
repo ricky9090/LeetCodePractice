@@ -3,6 +3,7 @@ package study.leetcode.section150.no169;
 import java.util.HashMap;
 
 /**
+ * <h2>Majority Element</h2>
  * Given an array of size n, find the majority element.
  * The majority element is the element that appears more than ⌊ n/2 ⌋ times.
  * <p>
@@ -21,7 +22,7 @@ import java.util.HashMap;
  * @see <a href="https://leetcode.com/problems/majority-element/description/">
  * Majority Element - LeetCode</a>
  */
-public class Solution {
+public class Solution169 {
     // TODO better solution
     public int majorityElement(int[] nums) {
         HashMap<Integer, Integer> data = new HashMap<>();
@@ -47,7 +48,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int test[] = {3, 2, 3};
-        Solution solution = new Solution();
+        Solution169 solution = new Solution169();
         System.out.println(solution.majorityElement(test));
     }
 }

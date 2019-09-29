@@ -1,13 +1,14 @@
 package study.leetcode.section150.no191;
 
 /**
+ * <h2>Number of 1 Bits</h2>
  * Write a function that takes an unsigned integer and return
  * the number of '1' bits it has (also known as the Hamming weight).
  *
  * @see <a href="https://leetcode.com/problems/number-of-1-bits/">
  * Number of 1 Bits</a>
  */
-public class Solution {
+public class Solution191 {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
         int target = n;

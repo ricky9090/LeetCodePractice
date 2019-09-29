@@ -10,11 +10,11 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnit4.class)
 public class SolutionTest {
-    MinStack stack;
+    MinStack155 stack;
 
     @Before
     public void setUp() {
-        stack = new MinStack();
+        stack = new MinStack155();
     }
 
     @After

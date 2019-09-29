@@ -3,6 +3,7 @@ package study.leetcode.no617;
 import study.leetcode.common.TreeNode;
 
 /**
+ * <h2>Merge Two Binary Trees</h2>
  * Given two binary trees and imagine that when you put one of them to cover the other,
  * some nodes of the two trees are overlapped while the others are not.
  * <p>
@@ -11,9 +12,9 @@ import study.leetcode.common.TreeNode;
  * will be used as the node of new tree.
  *
  * @see <a href="https://leetcode.com/problems/merge-two-binary-trees/description/">
- *     Merge Two Binary Trees - LeetCode</a>
+ * Merge Two Binary Trees - LeetCode</a>
  */
-public class Solution {
+public class Solution617 {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         if (t1 == null && t2 == null) {
             return null;

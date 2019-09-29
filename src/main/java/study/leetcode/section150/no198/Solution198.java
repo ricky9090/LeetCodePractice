@@ -1,6 +1,7 @@
 package study.leetcode.section150.no198;
 
 /**
+ * <h2>House Robber</h2>
  * You are a professional robber planning to rob houses along a street.
  * Each house has a certain amount of money stashed, the only constraint
  * stopping you from robbing each of them is that adjacent houses have
@@ -26,7 +27,7 @@ package study.leetcode.section150.no198;
  * @see <a href="https://leetcode.com/problems/house-robber/">
  * House Robber</a>
  */
-public class Solution {
+public class Solution198 {
     public int rob(int[] nums) {
         if (nums.length <= 0) {
             return 0;
@@ -51,7 +52,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] test = {2, 1, 1, 2};
-        Solution solution = new Solution();
+        Solution198 solution = new Solution198();
         System.out.println(solution.rob(test));
     }
 }

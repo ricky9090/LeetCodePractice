@@ -1,6 +1,6 @@
 package study.leetcode.no657;
 
-public class Solution {
+public class Solution657 {
     public boolean judgeCircle(String moves) {
         if (moves == null) {
             return true;
@@ -36,7 +36,7 @@ public class Solution {
     }
     
     public static void main(String[] args) {
-        Solution test = new Solution();
+        Solution657 test = new Solution657();
         System.out.println(test.judgeCircle("ASAS"));
     }
 }

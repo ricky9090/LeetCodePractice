@@ -1,6 +1,6 @@
 package study.leetcode.no461;
 
-public class Solution {
+public class Solution461 {
     /**
      * 0 <= x,y <= 2^31
      * */
@@ -31,7 +31,7 @@ public class Solution {
     }
     
     public static void main(String[] args) {
-        Solution test = new Solution();
+        Solution461 test = new Solution461();
         System.out.println(test.hammingDistance(0, 7));
     }
 
