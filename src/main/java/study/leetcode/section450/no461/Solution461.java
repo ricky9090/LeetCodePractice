@@ -1,4 +1,4 @@
-package study.leetcode.no461;
+package study.leetcode.section450.no461;
 
 public class Solution461 {
     /**
