@@ -1,4 +1,4 @@
-# leetcode-practice
+# LeetCode Practice
 我的LeetCode练习
 
 ## 项目结构
@@ -6,7 +6,7 @@
 .
 |--src
    |--main
-   |  |--java  //题目答案，包名对应题目编号
+   |  |--java  //题目答案，包名对应题目编号。50道题分为一个Section
    |--test
       |--java  //单元测试
 ```
