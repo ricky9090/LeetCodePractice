@@ -73,6 +73,7 @@
 |111|[Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree)|[Solution](src/main/java/study/leetcode/section100/no111/Solution111.java)|Easy|
 |112|[Path Sum ](https://leetcode-cn.com/problems/path-sum)|[Solution](src/main/java/study/leetcode/section100/no112/Solution112.java)|Easy|
 |113|[Path Sum II](https://leetcode-cn.com/problems/path-sum-ii)|[Solution](src/main/java/study/leetcode/section100/no113/Solution113.java)|Medium|
+|114|[Flatten Binary Tree to Linked List](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)|[Solution](src/main/java/study/leetcode/section100/no114/Solution114.java)|Medium|
 |118|[Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle)|[Solution](src/main/java/study/leetcode/section100/no118/Solution118.java)|Easy|
 |119|[Pascal's Triangle II](https://leetcode-cn.com/problems/pascals-triangle-ii)|[Solution](src/main/java/study/leetcode/section100/no119/Solution119.java)|Easy|
 |121|[Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|[Solution](src/main/java/study/leetcode/section100/no121/Solution121.java)|Easy|
