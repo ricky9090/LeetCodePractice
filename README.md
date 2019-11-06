@@ -34,6 +34,7 @@
 |22|[Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses)|[Solution](src/main/java/study/leetcode/section0/no22/Solution22.java)|Medium|
 |24|[Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs)|[Solution](src/main/java/study/leetcode/section0/no24/Solution24.java)|Medium|
 |26|[Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|[Solution](src/main/java/study/leetcode/section0/no26/Solution26.java)|Easy|
+|27|[Remove Element](https://leetcode-cn.com/problems/remove-element)|[Solution](src/main/java/study/leetcode/section0/no27/Solution27.java)|Easy|
 |35|[Search Insert Position](https://leetcode-cn.com/problems/search-insert-position)|[Solution](src/main/java/study/leetcode/section0/no35/Solution35.java)|Easy|
 |36|[Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku)|[Solution](src/main/java/study/leetcode/section0/no36/Solution36.java)|Medium|
 |39|[Combination Sum](https://leetcode-cn.com/problems/combination-sum)|[Solution](src/main/java/study/leetcode/section0/no39/Solution39.java)|Medium|
@@ -94,5 +95,11 @@
 |217|[Contains Duplicate](https://leetcode-cn.com/problems/contains-duplicate)|[Solution](src/main/java/study/leetcode/section200/no217/Solution217.java)|Easy|
 |226|[Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree)|[Solution](src/main/java/study/leetcode/section200/no226/Solution226.java)|Easy|
 |231|[Power of Two](https://leetcode-cn.com/problems/power-of-two)|[Solution](src/main/java/study/leetcode/section250/no231/Solution231.java)|Easy|
+|237|[Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list)|[Solution](src/main/java/study/leetcode/section250/no237/Solution237.java)|Easy|
 |258|[Add Digits](https://leetcode-cn.com/problems/add-digits)|[Solution](src/main/java/study/leetcode/section250/no258/Solution258.java)|Easy|
 |283|[Move Zeroes](https://leetcode-cn.com/problems/move-zeroes)|[Solution](src/main/java/study/leetcode/section250/no283/Solution283.java)|Easy|
+|292|[Nim Game](https://leetcode-cn.com/problems/nim-game)|[Solution](src/main/java/study/leetcode/section250/no292/Solution292.java)|Easy|
+|303|[Range Sum Query - Immutable](https://leetcode-cn.com/problems/range-sum-query-immutable)|[Solution](src/main/java/study/leetcode/section300/no303/Solution303.java)|Easy|
+|326|[Power of Three](https://leetcode-cn.com/problems/power-of-three)|[Solution](src/main/java/study/leetcode/section300/no326/Solution326.java)|Easy|
+|344|[Reverse String](https://leetcode-cn.com/problems/reverse-string)|[Solution](src/main/java/study/leetcode/section300/no344/Solution344.java)|Easy|
+|347|[Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements)|[Solution](src/main/java/study/leetcode/section300/no347/Solution347.java)|Medium|

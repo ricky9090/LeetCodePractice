@@ -1,4 +1,4 @@
-package study.leetcode.section250.no231;
+package study.leetcode.section200.no231;
 
 /**
  * <h2>Power of Two</h2>
