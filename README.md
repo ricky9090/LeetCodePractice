@@ -82,7 +82,7 @@
 |137|[Single Number II](https://leetcode-cn.com/problems/single-number-ii)|[Solution](src/main/java/study/leetcode/section100/no137/Solution137.java)|Medium|
 |141|[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle)|[Solution](src/main/java/study/leetcode/section100/no141/Solution141.java)|Easy|
 |144|[Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)|[Solution](src/main/java/study/leetcode/section100/no144/Solution144.java)|Medium|
-|155|[Min Stack](https://leetcode-cn.com/problems/min-stack)|[Solution](src/main/java/study/leetcode/section150/no155/Solution155.java)|Easy|
+|155|[Min Stack](https://leetcode-cn.com/problems/min-stack)|[Solution](src/main/java/study/leetcode/section150/no155/MinStack155.java)|Easy|
 |169|[Majority Element](https://leetcode-cn.com/problems/majority-element)|[Solution](src/main/java/study/leetcode/section150/no169/Solution169.java)|Easy|
 |172|[Factorial Trailing Zeroes](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[Solution](src/main/java/study/leetcode/section150/no172/Solution172.java)|Easy|
 |189|[Rotate Array](https://leetcode-cn.com/problems/rotate-array)|[Solution](src/main/java/study/leetcode/section150/no189/Solution189.java)|Easy|
