@@ -104,3 +104,26 @@
 |326|[Power of Three](https://leetcode-cn.com/problems/power-of-three)|[Solution](src/main/java/study/leetcode/section300/no326/Solution326.java)|Easy|
 |344|[Reverse String](https://leetcode-cn.com/problems/reverse-string)|[Solution](src/main/java/study/leetcode/section300/no344/Solution344.java)|Easy|
 |347|[Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements)|[Solution](src/main/java/study/leetcode/section300/no347/Solution347.java)|Medium|
+|371|[Sum of Two Integers](https://leetcode-cn.com/problems/sum-of-two-integers)|[Solution](src/main/java/study/leetcode/section350/no371/Solution371.java)|Easy|
+|374|[Guess Number Higher or Lower](https://leetcode-cn.com/problems/guess-number-higher-or-lower)|[Solution](src/main/java/study/leetcode/section350/no374/Solution374.java)|Easy|
+|389|[Find the Difference](https://leetcode-cn.com/problems/find-the-difference)|[Solution](src/main/java/study/leetcode/section350/no389/Solution389.java)|Easy|
+|412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|[Solution](src/main/java/study/leetcode/section400/no412/Solution412.java)|Easy|
+|429|[N-ary Tree Level Order Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal)|[Solution](src/main/java/study/leetcode/section400/no429/Solution429.java)|Medium|
+|448|[Find All Numbers Disappeared in an Array](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array)|[Solution](src/main/java/study/leetcode/section400/no448/Solution448.java)|Easy|
+|461|[Hamming Distance](https://leetcode-cn.com/problems/hamming-distance)|[Solution](src/main/java/study/leetcode/section450/no461/Solution461.java)|Easy|
+|463|[Island Perimeter](https://leetcode-cn.com/problems/island-perimeter)|[Solution](src/main/java/study/leetcode/section450/no463/Solution463.java)|Easy|
+|509|[Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number)|[Solution](src/main/java/study/leetcode/section500/no509/Solution509.java)|Easy|
+|538|[Convert BST to Greater Tree](https://leetcode-cn.com/problems/convert-bst-to-greater-tree)|[Solution](src/main/java/study/leetcode/section500/no538/Solution538.java)|Easy|
+|617|[Merge Two Binary Trees](https://leetcode-cn.com/problems/merge-two-binary-trees)|[Solution](src/main/java/study/leetcode/section600/no617/Solution617.java)|Easy|
+|637|[Average of Levels in Binary Tree](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree)|[Solution](src/main/java/study/leetcode/section600/no637/Solution637.java)|Easy|
+|657|[Robot Return to Origin](https://leetcode-cn.com/problems/robot-return-to-origin)|[Solution](src/main/java/study/leetcode/section650/no657/Solution657.java)|Easy|
+|700|[Search in a Binary Search Tree](https://leetcode-cn.com/problems/search-in-a-binary-search-tree)|[Solution](src/main/java/study/leetcode/section650/no700/Solution700.java)|Easy|
+|704|[Binary Search](https://leetcode-cn.com/problems/binary-search)|[Solution](src/main/java/study/leetcode/section700/no704/Solution704.java)|Easy|
+|709|[To Lower Case](https://leetcode-cn.com/problems/to-lower-case)|[Solution](src/main/java/study/leetcode/section700/no709/Solution709.java)|Easy|
+|771|[Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones)|[Solution](src/main/java/study/leetcode/section750/no771/Solution771.java)|Easy|
+|783|[Minimum Distance Between BST Nodes](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes)|[Solution](src/main/java/study/leetcode/section750/no783/Solution783.java)|Easy|
+|867|[Transpose Matrix](https://leetcode-cn.com/problems/transpose-matrix)|[Solution](src/main/java/study/leetcode/section850/no867/Solution867.java)|Easy|
+|876|[Middle of the Linked List](https://leetcode-cn.com/problems/middle-of-the-linked-list)|[Solution](src/main/java/study/leetcode/section850/no876/Solution876.java)|Easy|
+|961|[N-Repeated Element in Size 2N Array](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array)|[Solution](src/main/java/study/leetcode/section950/no961/Solution961.java)|Easy|
+|965|[Univalued Binary Tree](https://leetcode-cn.com/problems/univalued-binary-tree)|[Solution](src/main/java/study/leetcode/section950/no965/Solution965.java)|Easy|
+|1108|[Defanging an IP Address](https://leetcode-cn.com/problems/defanging-an-ip-address)|[Solution](src/main/java/study/leetcode/section1100/no1108/Solution1108.java)|Easy|

@@ -1,4 +1,4 @@
-package study.leetcode.no538;
+package study.leetcode.section500.no538;
 
 import study.leetcode.common.TreeNode;
 
